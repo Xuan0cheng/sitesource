@@ -3,10 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
+    <!--标题-->
     <title>综合站</title>
 </head>
 
 <body>
+	<!--CSS样式-->
     <style type="text/css" media="screen">
     body {
         position: fixed;
@@ -24,25 +26,36 @@
         -o-background-size: cover;
         background-position: center 0;
     }
+
     a {
-    	text-decoration:none
+        text-decoration: none
     }
+
     #footer {
-                height: 40px;
-                line-height: 40px;
-                position: fixed;
-                bottom: 0;
-                width: 100%;
-                text-align: center;
-                background: #333;
-                color: #fff;
-                font-family: Arial;
-                font-size: 12px;
-                letter-spacing: 1px;
-            }
+        height: 40px;
+        line-height: 40px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        background: #333;
+        color: #fff;
+        font-family: Arial;
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
     </style>
+    <!--标题图片-->
     <img src="/img/title.png">
-    <a href="/sources"><div align="right" style="color: red">开发者阅读 &nbsp; &nbsp; &nbsp; &nbsp;</div></a>
+    <!--链接至源码分享页面-->
+    <a href="/sources">
+        <div style="text-align: right; color: red">开发者阅读 &nbsp; &nbsp; &nbsp; &nbsp;</div>
+    </a>
+    <!--天气代码-->
+    <div style="text-align: center; vertical-align: top;">
+        <iframe width="420" scrolling="no" height="60" frameborder="0" allowtransparency="true" src="http://i.tianqi.com/index.php?c=code&id=12&color=%23FFFFFF&icon=1&num=5&site=12"></iframe>
+    </div>
+    <!--版权声明-禁止删除-->
     <div id="footer">Copyright 2018 www.rcxserver.top All Rights Reserved.</div>
 </body>
 
