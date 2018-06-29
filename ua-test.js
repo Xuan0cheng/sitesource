@@ -9,7 +9,7 @@
             }
          };
       var toMobileVertion = function() {
-            window.location.href = '/m.html'
+            window.location.href = './m.html'
          }
       if (contains(ua, "ipad") || (contains(ua, "rv:1.2.3.4")) || (contains(ua, "0.0.0.0")) || (contains(ua, "8.0.552.237"))) {
          return false
